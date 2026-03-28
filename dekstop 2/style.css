@@ -1,0 +1,118 @@
+body{
+margin:0;
+font-family:Arial;
+background:#121212;
+color:white;
+}
+
+
+/* NAVBAR */
+.navbar{
+display:grid;
+grid-template-columns:200px 1fr 200px;
+align-items:center;
+background:#1f1f1f;
+padding:15px 30px;
+}
+
+.logo{
+font-size:20px;
+font-weight:bold;
+color:#ff3d3d;
+}
+
+nav{
+text-align:center;
+}
+
+nav a{
+margin:0 10px;
+text-decoration:none;
+color:white;
+font-size:14px;
+}
+
+nav a:hover{
+color:#ff3d3d;
+}
+
+.navbar input{
+padding:6px;
+border-radius:5px;
+border:none;
+background:#333;
+color:white;
+}
+
+
+/* FILTER GENRE */
+.genre-filter{
+padding:15px 30px;
+}
+
+.genre-filter button{
+padding:8px 16px;
+margin-right:10px;
+border:none;
+border-radius:20px;
+background:#333;
+color:white;
+cursor:pointer;
+}
+
+.genre-filter button:hover{
+background:#ff3d3d;
+}
+
+.genre-filter .active{
+background:#ff3d3d;
+}
+
+
+/* SECTION */
+.movie-section{
+margin:20px 30px;
+padding:20px;
+background:#1e1e1e;
+border-radius:8px;
+}
+
+.movie-section h3{
+margin-bottom:15px;
+color:#ff3d3d;
+}
+
+
+/* GRID FILM */
+.movie-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:20px;
+}
+
+
+/* CARD FILM */
+.movie-card{
+background:#2a2a2a;
+border-radius:8px;
+overflow:hidden;
+transition:0.3s;
+cursor:pointer;
+}
+
+.movie-card img{
+width:100%;
+height:260px;
+object-fit:cover;
+}
+
+.movie-card:hover{
+transform:scale(1.05);
+box-shadow:0 5px 15px rgba(0,0,0,0.5);
+}
+
+.movie-card p{
+padding:10px;
+font-size:14px;
+text-align:center;
+}
