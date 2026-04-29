@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="description" content="berisi rekomendasi film populer 2025-2026">
+<meta name="keywords" content="nonton film film indonesia film bioskop rekomendasi film">
 <title>Rekomen Film</title>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -14,10 +16,9 @@
 <div class="logo">Rekomen Film</div>
 
 <nav>
-<a href="http://127.0.0.1:5500/index.html">Home</a>
+<a href="../index.html">Home</a>
 <a href="#"><u>Genre</u></a>
 <a href="../Top_Rated/index.html">Top Rated</a>
-<a href="#">My List</a>
 </nav>
 
 <input type="text" id="search" placeholder="Search film...">
@@ -28,10 +29,12 @@
 <!-- FILTER GENRE -->
 <section class="genre-filter">
 
-<button class="active">Semua</button>
-<button>Indonesia</button>
-<button>Action</button>
-<button>Comedy</button>
+<section class="genre-filter">
+<a href="index.html"><button class="active">Semua</button></a>
+<a href="indonesia.html"><button>Indonesia</button></a>
+<a href="action.html"><button>Action</button></a>
+<a href="comedy.html"><button>Comedy</button></a>
+</section>
 
 </section>
 
@@ -148,3 +151,13 @@
 
 </body>
 </html>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4KXCX3K2D3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4KXCX3K2D3');
+</script>
